@@ -785,6 +785,14 @@ button:focus {
 .portfolio .portfolio__box:nth-child(6) {
   background: linear-gradient(90deg, #b1e5f9, #f4d2fe);
 }
+
+.portfolio .portfolio__box:nth-child(10) {
+  background: linear-gradient(180deg, #bab1a9, #feedca);
+}
+
+.portfolio .portfolio__box:nth-child(11) {
+  background: linear-gradient(180deg, #b1e5f9, #f4d2fe);
+}
 /* ********Project section */
 .project {
   text-align: center;
