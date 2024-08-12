@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutmeg Insights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: black;
+        }
+        .btn{
+            color: black !important;
+            margin-top: .2rem;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .header-title {
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+        .description {
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+        .category-buttons {
+            margin-top: 20px;
+        }
+        .category-button {
+            margin-right: 10px;
+        }
+        .latest-article, .featured-articles, .more-articles {
+            margin-top: 30px;
+        }
+        .latest-article img, .featured-articles img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nutmeg</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Investment styles</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Advice</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tools and guides</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Insights</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                <li class="nav-item"><a class="btn btn-success" href="#">Log In</a></li>
+                <li class="nav-item"><a class="btn btn-primary" href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="header-title">Insights</h1>
+    <p class="description">The latest expert views from our investment team on what's moving markets and how this impacts portfolios. These insights aren't financial advice, but you can find that <a href="#">here</a>.</p>
+
+    <div class="category-buttons">
+        <button class="btn btn-outline-primary category-button">All</button>
+        <button class="btn btn-outline-primary category-button">Family Investing</button>
+        <button class="btn btn-outline-primary category-button">Financial Planning</button>
+        <button class="btn btn-outline-primary category-button">Home Buying</button>
+        <button class="btn btn-outline-primary category-button">Investing Essentials</button>
+        <button class="btn btn-outline-primary category-button">Isas</button>
+        <button class="btn btn-outline-primary category-button">Market Insights</button>
+        <button class="btn btn-outline-primary category-button">Pensions And Retirement</button>
+        <button class="btn btn-outline-primary category-button">Socially Responsible Investing</button>
+    </div>
+
+    <div class="latest-article">
+        <h2>Latest Article</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="position-relative">
+                    <img src="https://via.placeholder.com/800x400" alt="Investor Update" class="img-fluid">
+                    <div class="position-absolute bottom-0 start-0 w-100 bg-dark text-white p-3">
+                        <h5 class="mb-0">Investor update</h5>
+                        <p class="mb-0">August 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Nutmeg investor update: August 2024</h3>
+                <p class="text-muted">9 August 2024 | 4 min</p>
+                <p>James McManus, Chief Investment Officer, looks at market performance in July. He covers what the earnings results from the second quarter have told us...</p>
+                <a class="btn btn-primary" href="#">Market Insights</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured-articles">
+        <h2>Featured Articles</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Market Correction">
+                    <div class="card-body">
+                        <h5 class="card-title">What is a market correction and how is Nutmeg...</h5>
+                        <p class="text-muted">5 August 2024 | 5 min</p>
+                        <p class="card-text">We explore the recent volatility in global equity markets, how the Nutmeg team is reacting, and how to avoid the...</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Bank of England">
+                    <div class="card-body">
+                        <h5 class="card-title">What does the Bank of England interest rate cut...</h5>
+                        <p class="text-muted">1 August 2024 | 7 min</p>
+                        <p class="card-text">The Bank of England (BoE) has cut interest rates for the first time since the start of the Covid pandemic, ending a...</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Quarterly Market Update">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutmeg quarterly market update</h5>
+                        <p class="text-muted">Q2 2024</p>
+                        <p class="card-text">Nutmeg Quarterly Market Update Q2 2024. Positive global growth helped equities, while government bonds were hurt by delayed interest rate cuts. Here's our...</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="more-articles">
+        <h2>More Articles</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutmeg investor update: August 2024</h5>
+                        <p class="text-muted">5 August 2024 | 6 min</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">What does the Bank of England interest rate cut mean for investors?</h5>
+                        <p class="text-muted">1 August 2024 | 7 min</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">The role of technology and a thematic approach to investing</h5>
+                        <p class="text-muted">29 July 2024 | 6 min</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutmeg Quarterly Market Update Q2 2024</h5>
+                        <p class="text-muted">18 July 2024 | 6 min</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">How Nutmeg Smart Alpha portfolios are positioned for the months ahead</h5>
+                        <p class="text-muted">15 July 2024 | 5 min</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Is now a good time to invest?</h5>
+                        <p class="text-muted">10 July 2024 | 4 min</p>
+                        <a href="#" class="btn btn-primary">Market Insights</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<footer class="bg-dark text-white pt-4 pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Support</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">FAQs</a></li>
+                    <li><a href="#" class="text-white">Insights</a></li>
+                    <li><a href="#" class="text-white">Sitemap</a></li>
+                    <li><a href="#" class="text-white">Careers</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Privacy</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Privacy policy</a></li>
+                    <li><a href="#" class="text-white">Cookie policy</a></li>
+                    <li><a href="#" class="text-white">Site terms</a></li>
+                    <li><a href="#" class="text-white">Terms and conditions</a></li>
+                    <li><a href="#" class="text-white">Regulatory</a></li>
+                    <li><a href="#" class="text-white">Partnerships</a></li>
+                    <li><a href="#" class="text-white">Complaints</a></li>
+                    <li><a href="#" class="text-white">Cookie Settings</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Client services</h5>
+                <p>020 3598 1515</p>
+                <p><a href="mailto:support@nutmeg.com" class="text-white">Contact us</a></p>
+                <p>Press enquiries only: 07788251769</p>
+                <p><a href="mailto:pr@nutmeg.com" class="text-white">pr@nutmeg.com</a></p>
+            </div>
+            <div class="col-md-3">
+                <h5>Nutmeg</h5>
+                <p>25 Bank Street,</p>
+                <p>Canary Wharf,</p>
+                <p>London,</p>
+                <p>E14 5JP</p>
+                <p>Office: 020 3598 1717</p>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p>As with all investing, your capital is at risk. The value of your portfolio with Nutmeg can go down as well as up and you may get back less than you invest.</p>
+            <p><a href="#" class="text-white">Learn what we mean by risk</a></p>
+        </div>
+        <div class="text
